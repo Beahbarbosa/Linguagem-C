@@ -1,0 +1,20 @@
+#include<stdio.h>
+
+main()
+{
+	//definicao de variaveis
+	float n1,n2,n3,n4,media;
+	//entrada de dados
+	printf("Digite 4 notas: ");
+	scanf("%f",&n1);
+	scanf("%f",&n2);
+	scanf("%f",&n3);
+	scanf("%f",&n4);
+	
+	//operacao
+	media=(n1+n2+n3+n4)/4;
+	//saida de dados
+	printf("A media de notas equivale a: %.2f \n",media);
+	
+	
+}
